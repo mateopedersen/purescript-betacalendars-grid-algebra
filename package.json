@@ -1,6 +1,6 @@
 {
   "name": "purescript-betacalendars-grid-algebra",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "PureScript algebra for Gregorian calendar grids, week origins, and printable paper geometry.",
   "license": "MIT",
   "homepage": "https://www.betacalendars.com/",

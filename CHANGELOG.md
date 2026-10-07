@@ -1,6 +1,10 @@
 # Changelog
 
-## 0.1.0 — Initial release
+## 0.1.1 — 2026-10-07
+
+- Complete the first Registry release with a publishable package manifest.
+
+## 0.1.0 — 2026-10-07
 
 - Add bounded Gregorian civil-date and leap-year calculations.
 - Add seven week-start transformations and natural/fixed month grids.
