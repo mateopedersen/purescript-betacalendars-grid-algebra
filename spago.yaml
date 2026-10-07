@@ -7,7 +7,6 @@ package:
       githubOwner: mateopedersen
       githubRepo: purescript-betacalendars-grid-algebra
     include:
-      - "test/**/*.purs"
       - "examples/**/*.purs"
       - CHANGELOG.md
     owners:
