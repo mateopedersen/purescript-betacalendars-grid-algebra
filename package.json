@@ -1,0 +1,25 @@
+{
+  "name": "purescript-betacalendars-grid-algebra",
+  "version": "0.1.0",
+  "description": "PureScript algebra for Gregorian calendar grids, week origins, and printable paper geometry.",
+  "license": "MIT",
+  "homepage": "https://www.betacalendars.com/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mateopedersen/purescript-betacalendars-grid-algebra.git"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "packageManager": "pnpm@11.19.0",
+  "scripts": {
+    "build": "spago build",
+    "test": "spago test",
+    "docs": "spago docs"
+  },
+  "devDependencies": {
+    "purescript": "0.15.15",
+    "purs-tidy": "0.11.1",
+    "spago": "1.0.4"
+  }
+}

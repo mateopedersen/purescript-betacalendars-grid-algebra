@@ -1,0 +1,31 @@
+package:
+  name: betacalendars-grid-algebra
+  publish:
+    version: 0.1.0
+    license: MIT
+    location:
+      githubOwner: mateopedersen
+      githubRepo: purescript-betacalendars-grid-algebra
+    include:
+      - "test/**/*.purs"
+      - "examples/**/*.purs"
+      - CHANGELOG.md
+    owners:
+      - keytype: ssh-ed25519
+        public: AAAAC3NzaC1lZDI1NTE5AAAAIHBg9ABXhX4MWBUD9FY3x6UydzfUfRa9c20Tl2dlCVC/
+        id: jwcalendarcom@gmail.com
+  dependencies:
+    - arrays: ">=7.3.0 <8.0.0"
+    - either: ">=6.1.0 <7.0.0"
+    - maybe: ">=6.0.0 <7.0.0"
+    - prelude: ">=6.0.2 <7.0.0"
+  test:
+    main: Test.Main
+    strict: true
+    dependencies:
+      - console
+      - effect
+      - quickcheck
+      - spec
+      - spec-node
+workspace: {}
